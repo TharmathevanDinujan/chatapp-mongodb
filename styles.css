@@ -1,0 +1,106 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Heading */
+h1 {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Chat Form */
+.chat-form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f1f1f1;
+}
+
+.chat-form input {
+    padding: 10px;
+    font-size: 1em;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-form input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Submit Button */
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Chat Box */
+.chat-box {
+    padding: 15px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 1em;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Row Styling */
+tr {
+    border-bottom: 1px solid #ddd;
+}
